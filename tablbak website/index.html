@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html dir='rtl' lang='ar'>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>طلبك</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-container">
+            <nav >
+                <h1 class="logo">طلبك</h1>
+                <ul class="active">
+                    <li><a href="#">الصفحة الرئيسية</a></li>
+                    <li><a href="#من نحن ">من نحن </a></li>
+                    <li><a href="#نقدم لكم">نقدم لكم</a></li>
+                    <li><a href="#تواصل معنا ">تواصل معنا </a></li>
+                </ul>
+                <div class="icone">
+                <i  class="fas fa-bars fa-2x"></i>
+            </div>
+            </nav>
+        </div>
+            <div class="hero-section">
+         <div class="content" >
+            <h1>لتوصيل <span>طلبك</span>  بسرعه </h1>
+            <h3>شركة <span>طلبك </span> بتقدملك خدمة التوصيل <br/> بسرعه كبيره لأى مكان تحتاجه </h3>
+            <button class="btn"><a href="#من نحن">اعرف اكتر عنا </a></button>
+         </div>
+            </div>  
+            <section class="qualities" id="نقدم لكم">
+                <h2>ماذا نقدم لكم ؟</h2>
+                <div class="qualitiy-container">
+                <div class="quality">
+                    <div class="header-container">
+                        <h3>سرعه كبيره </h3>
+                        <i class="fa-solid fa-gauge"></i>
+                    </div>
+                    
+                    <p>سوف يتم توصيل اى طلب تحتاجه بسرعه كبيره لاننا نقدم خدمه جيده فى توصيل الطلبات </p>
+
+                </div>
+                <div class="quality">
+                    <div class="header-container">
+                        <h3>جوده عالية </h3>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                              
+                      <p>سوف يتم توصيل اى طلب تحتاجه بسرعه كبيره لاننا نقدم خدمه جيده فى توصيل الطلبات </p>
+
+        
+                </div>
+                <div class="quality">
+                    <div class="header-container">
+                        <h3>أسعار رمزية</h3>
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                       
+                     <p>سوف يتم توصيل اى طلب تحتاجه بسرعه كبيره لاننا نقدم خدمه جيده فى توصيل الطلبات </p>
+                </div>
+            </div>
+            </section>
+            <section class="about-container" id="من نحن">
+                <div class="about-us">
+                <div class="about-content">
+                    <h2>من نحن؟</h2>
+                    <p>نحن شركه تاسست عام1999م اسسها رجل الاعمال احمد حسب ولديها اكثر من 25 فرع حول العالم وتبلغ ارادات الشركه سنوسا تقريبا مليار دولار >نحن شركه تاسست عام1999م اسسها رجل الاعمال احمد حسب ولديها اكثر من 25 فرع حول العالم وتبلغ ارادات الشركه سنوسا تقريبا مليار دولار  .</p>
+                </div>
+                <img src="./image/lucian-alexe-afDu-GuxjjM-unsplash.jpg" alt="">
+            </div>
+            </section>
+            <section class="contact-us" id="تواصل معنا">
+                <div class="contact-container">
+                <h2>تواصل معنا </h2>
+                <form >
+                    <label for="name">اسمك</label>
+                    <input type="text" id="name">
+                    <label for="name">بريدك الالكترونى </label>
+                    <input type="email" id="email">
+                    <label for="msg">رسالتك لنا </label>
+                    <textarea name="msg" id="msg" cols="30" rows="5"></textarea>
+                    <button class="btn" type="submit">إرسال </button>
+                </form>
+            </div>
+            </section>
+            <footer>
+                <p>هذه الشرك تحت رعاية بشمهندس احمد حسب</p>
+            </footer>
+        
+    </div>
+    <script>
+        nav=document.querySelector(".icone");
+        nav.onclick=function(){
+            navbar=document.querySelector(".nav-container ul");
+            navbar.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
